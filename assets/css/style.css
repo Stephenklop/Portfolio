@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    /* background-color: green; */
+}
+
+.logo {
+    width: 4rem;
+    height: 4rem;
+    margin: 8rem 0;
+}
+
+.header__title {
+    font-size: 5rem;
+}
+
+.header__title span {
+    display: block;
+}
+
+.header__desc {
+    font-size: 3.5rem;
+    margin-top: 1rem;
+}
+
+.main__skills-title,
+.main__projects-title {
+    margin-top: 16rem;
+    font-size: 3rem;
+}
+
+.main__skills-desc,
+.main__projects-desc {
+    margin-top: 4rem;
+    font-size: 1.6rem;
+    width: 30vw;
+    line-height: 3rem;
+}
